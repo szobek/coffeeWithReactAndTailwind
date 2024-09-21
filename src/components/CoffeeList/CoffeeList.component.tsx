@@ -13,7 +13,7 @@ const CoffeeList = ({coffees}:coffesType) => {
     
 
     function handleSelectCoffeeMethod(id: number|undefined): void {
-        navigate(`/coffee/${id}`);
+        if(id!=undefined) navigate(`/coffee/${id}`);
     }
 
     if (coffees.length > 0) {
