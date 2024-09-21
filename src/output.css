@@ -771,6 +771,10 @@ video {
   text-decoration-color: rgb(34 197 94 / 0.6);
 }
 
+.decoration-red-500\/60 {
+  text-decoration-color: rgb(239 68 68 / 0.6);
+}
+
 .decoration-2 {
   text-decoration-thickness: 2px;
 }
